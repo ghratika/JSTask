@@ -22,7 +22,7 @@ console.log("employee", employee); // employee {name: 'vivek badola', title: 'pr
 console.log("employeeCopy", employeeCopy); // employeeCopy {name: 'Arun Dangi', title: 'project lead', company: 'thinksys'}company: "thinksys"name: "Arun Dangi"title: "project lead"[[Prototype]]: Object
 
 
-// Object.assign(), etc creates a shallow copy. Changing one would change the other coz they point the same address object in memory
+// Object.assign(), etc creates a shallow copy(only non-primitive values). Changing one would change the other coz they point the same address object in memory
 
 
 // primitives (name) are copied by value 
