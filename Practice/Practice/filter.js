@@ -5,7 +5,7 @@ const arr = [1, 2, 3];
 const result = arr.forEach((num) => {
   console.log(num);
 });
-console.log(result) // undefined
+console.log(result) // 1 2 3
 
 // will return nothing as new scope openes
 const result2 = arr.forEach((num) => {
